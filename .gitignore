@@ -1,3 +1,4 @@
 *.pyc
 *.properties
 nbproject/project.xml
+/nbproject/
