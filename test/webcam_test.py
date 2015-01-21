@@ -8,7 +8,7 @@ while(True):
     ret, frame = cap.read()
 
     # Our operations on the frame come here
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(frame, cv2.COLOR_RGB2XYZ)
 
     # Display the resulting frame
     cv2.imshow('frame',gray)
@@ -17,4 +17,4 @@ while(True):
 
 # When everything done, release the capture
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
